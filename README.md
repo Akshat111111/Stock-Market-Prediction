@@ -1,1 +1,6 @@
 # Stock-Market-Prediction
+In stock price prediction, the objective is to forecast the future value of a company's financial stocks. The recent trend in stock market prediction involves the use of machine learning, which makes predictions based on the current stock market indices by training on their previous values.
+
+In the project described, a Long Short-Term Memory (LSTM) machine learning approach is used for stock value prediction. LSTMs are a type of Recurrent Neural Network (RNN) that are well-suited for sequential data and have been successful in many time series forecasting tasks. The LSTM network is trained on historical stock data and predicts the closing price of the stock for a day, with a prediction horizon of at least one week. The Adam optimization algorithm is used during the training process to update the network's weights and biases to minimize the prediction error.
+
+The closing price of a stock is a valuable indicator of a company's financial performance and is used by many investors and traders as a basis for investment decisions. By using a machine learning approach, the stock price prediction can take into account a large amount of historical data, allowing for more informed predictions compared to traditional methods that only consider a small set of past values.
